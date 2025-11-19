@@ -1,2 +1,25 @@
-# EduMate
-EduMate is an AI-powered learning assistant built using an agent-based architecture. It helps students understand concepts faster by breaking down queries, retrieving information, summarizing content, and generating clear explanations. Designed for personalized, fast, and effective learning.
+# EduMate – AI Learning Assistant
+
+EduMate is an AI-powered study assistant that uses agent-based architecture
+to explain topics, summarize content, and help students learn efficiently.
+
+## Features
+- Query understanding
+- Retrieval agent
+- Summarization agent
+- Final response generator
+- Modular agent pipeline
+
+## Structure
+```
+edumate/
+│── README.md
+│── requirements.txt
+│── notebook.ipynb
+│── src/
+│   ├── agents.py
+│   ├── pipeline.py
+│   └── run.py
+│── data/
+│   └── README.md
+```
